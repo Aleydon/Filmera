@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import api from '../../Services/api';
+import { List, ListContainer, AcessButton } from './styles';
+
 
 
 
@@ -27,10 +29,16 @@ const HomePage = () => {
                     {  
                         films.map((data) => {
                             return(
-                                <li key={data.id}>{data.nome}
-                                    <img src={data.foto} alt="ImageApi" />
-                                    <br />
-                                </li>
+                                <ListContainer>
+                                    <List key={data.id}>
+                                        <h3>
+                                            {data.nome}
+                                        </h3>
+                                        <img src={data.foto} alt="ImageApi" style={{marginTop: 20}} />
+                                        <br />
+                                        <AcessButton>Acess</AcessButton>
+                                    </List>
+                                </ListContainer>
                                 )
                             })
                     }
