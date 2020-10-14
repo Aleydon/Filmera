@@ -4,6 +4,8 @@ import { Container } from '../Styles/styled';
 import HomePage from '../Components/Home';
 import HeaderComponent from '../Components/Header';
 import NotFound from '../Components/NotFound';
+import FilmView from '../Components/FilmView';
+
 
 
 
@@ -17,6 +19,7 @@ const Routes = () => {
                 <Container>
                     <Switch>
                         <Route exact path="/" component={HomePage} />
+                        <Route exact path="/films/:id" component={FilmView} />
                         <Route path="*" component={NotFound} />
                     </Switch>
                 </Container>

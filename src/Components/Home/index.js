@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import api from '../../Services/api';
 import { List, ListContainer, AcessButton } from './styles';
+import { Link } from 'react-router-dom';
+
 
 
 
@@ -31,12 +33,10 @@ const HomePage = () => {
                             return(
                                 <ListContainer>
                                     <List key={data.id}>
-                                        <h3>
-                                            {data.nome}
-                                        </h3>
-                                        <img src={data.foto} alt="ImageApi" style={{marginTop: 20}} />
+                                        <h3>{data.nome}</h3>
+                                            <img src={data.foto} alt="ImageApi" style={{marginTop: 20}} />
                                         <br />
-                                        <AcessButton>Acess</AcessButton>
+                                        <AcessButton><Link to={`/films/${data.id}`}>Acess</Link></AcessButton>
                                     </List>
                                 </ListContainer>
                                 )
