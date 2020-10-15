@@ -17,7 +17,7 @@ const HomePage = () => {
                 const data = await api.get();
                 setFilms(data.data);
 
-            } catch (error) {
+            }catch (error) {
                 console.log(error);
             }
         }
@@ -26,22 +26,21 @@ const HomePage = () => {
 
     return(
         <>
-            <h4>HomePage</h4>
-                <ul>
-                    {  
-                        films.map((data) => {
-                            return(
-                                <ListContainer>
-                                    <List key={data.id}>
-                                        <h3>{data.nome}</h3>
-                                            <img src={data.foto} alt="ImageApi" style={{marginTop: 20}} />
-                                        <br />
-                                        <AcessButton><Link to={`/films/${data.id}`}>Acess</Link></AcessButton>
-                                    </List>
-                                </ListContainer>
-                                )
-                            })
-                    }
+            <ul>
+                {  
+                    films.map((data) => {
+                        return(
+                            <ListContainer>
+                                <List key={data.id}>
+                                    <h3>{data.nome}</h3>
+                                        <img src={data.foto} alt="ImageApi" style={{marginTop: 20}} />
+                                    <br />
+                                    <AcessButton><Link to={`/films/${data.id}`} style={{color: "white", fontSize: 19, textDecoration: "none"}}>Acess</Link></AcessButton>
+                                </List>
+                            </ListContainer>
+                            )
+                        })
+                }
                 </ul>
         </>
     );
