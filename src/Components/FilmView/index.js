@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import api from '../../Services/api';
-import { Container, Card, Title, Image } from './style';
+import { Container, Card, Title, Image, SubTitle, ViewSubTitle } from './style';
 
 
 
@@ -29,6 +29,10 @@ const FilmView = ({ match }) => {
             <Card>
                 <Title>{getFilmId.nome}</Title>
                 <Image className="image-zoom" src={getFilmId.foto} alt={`${getFilmId}`} />
+                    <h3 style={{alignText: "center", marginTop: 45, color: "#f00"}}>Sinopse</h3>
+                <ViewSubTitle>
+                    <SubTitle>{getFilmId.sinopse}</SubTitle>
+                </ViewSubTitle>
             </Card>
         </Container>
     );

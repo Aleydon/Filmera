@@ -25,7 +25,6 @@ export const List = styled.li`
 export const ListContainer = styled.div`
     display: flex;
     flex: 1;
-    background-color: #EEE;
     flex-direction: column;
     margin-top: 60px;
     border-radius: 10px; 

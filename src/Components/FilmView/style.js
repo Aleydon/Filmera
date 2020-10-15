@@ -4,7 +4,6 @@ import styled from 'styled-components';
 
 
 export const Container = styled.div`
-    background-color: "#E3E3E3";
     align-items: center;
 `;
 
@@ -12,8 +11,11 @@ export const Container = styled.div`
 
 
 export const Card = styled.div`
-    width: 90%;
     margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 `;
 
 
@@ -33,4 +35,20 @@ export const Image = styled.img`
     height: 400px;
     width: 1000px;
     border-radius: 25px;
+`;
+
+
+
+
+export const ViewSubTitle = styled.div`
+    width: 50%;
+    align-items: center;
+`;
+
+
+
+
+export const SubTitle = styled.h4`
+    text-align: center;
+    padding-top: 50px;
 `;
