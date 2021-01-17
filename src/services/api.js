@@ -6,7 +6,7 @@ import axios from 'axios';
 
 
 const api = axios.create({
-    baseURL: 'https://sujeitoprogramador.com/r-api/?api=filmes', 
+    baseURL: process.env.REACT_APP_FILM_API, 
 });
 
 
