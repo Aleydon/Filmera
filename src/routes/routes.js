@@ -1,10 +1,12 @@
 import React from 'react';
+
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
-import { Container } from '../Styles/styled';
-import HomePage from '../Components/Home';
-import HeaderComponent from '../Components/Header';
-import NotFound from '../Components/NotFound';
-import FilmView from '../Components/FilmView';
+
+import { Container } from '../styles/styled';
+import HomePage from '../components/home';
+import HeaderComponent from '../components/header';
+import NotFound from '../components/error';
+import FilmView from '../components/film';
 
 
 
