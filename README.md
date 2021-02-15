@@ -8,8 +8,7 @@ ReactJs: https://pt-br.reactjs.org/
 
 NodeJs: https://nodejs.org/en/
 
-#
-#
+
 ---
 #### how to use: 
   clone this repository and in root folder use npm install / yarn install and yarn start / npm start.
