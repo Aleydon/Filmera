@@ -1,4 +1,4 @@
-# consuming movies API
+# :earth_americas: consuming movies API :earth_americas:
 
 ---
 
