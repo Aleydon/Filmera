@@ -18,8 +18,16 @@ NodeJs: https://nodejs.org/en/
 
 ---
 #### :arrow_forward:   Get Started: 
-  - Clone this repository and in root folder use _npm install/yarn install_. 
-  - After installing all dependencies, run _npm start/yarn start_.
+
+  1. Clone the repo
+   ```sh
+   git clone https://github.com/Aleydon/Filmera.git
+   ```
+  2. Install NPM packages
+   ```sh
+   npm install or yarn install
+   ```
+
 
 
 <h4 align="center">:arrow_down_small:   Params on components: </h4>\
