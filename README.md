@@ -34,7 +34,7 @@ NodeJs: https://nodejs.org/en/
 
 
 
-<h4 align="center">:arrow_down_small:   Params on components: </h4>\
+<h4 align="center">:arrow_down_small:   Params on components: </h4>
 
 
 ![Get-APi-Data](gifUploads/get-api.gif)  
