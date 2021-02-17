@@ -2,6 +2,9 @@
 
 ---
 
+![Javascript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+
+---
 ## :pushpin: requirements: :pushpin:
 
 ReactJs: https://pt-br.reactjs.org/
