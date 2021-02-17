@@ -27,6 +27,10 @@ NodeJs: https://nodejs.org/en/
    ```sh
    npm install or yarn install
    ```
+   3. Run this project
+   ```sh
+   npm start or yarn start
+   ```
 
 
 
