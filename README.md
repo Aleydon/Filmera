@@ -22,4 +22,4 @@ NodeJs: https://nodejs.org/en/
 ---
 
 #### Inserting parameters: 
-![Params-APi](https://github.com/Aleydon/Filmera/blob/master/gifUploads/params.gif)
+![Params-APi](gifUploads/params.gif)
