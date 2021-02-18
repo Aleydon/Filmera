@@ -2,6 +2,7 @@
 
 ---
 
+
 ![ReactJs](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![Javascript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
 ![Html5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
@@ -12,7 +13,7 @@
 
 ---
 
-## :pushpin: requirements: :pushpin:
+## :pushpin: Requirements: :pushpin:
 
 ReactJs: :link: https://pt-br.reactjs.org/
 
@@ -37,7 +38,7 @@ NodeJs: :link: https://nodejs.org/en/
 
 
 
-<h4 align="center">:arrow_down_small:   Params on components: </h4>
+<h4 align="center">:arrow_down_small:   Navigate to film component: </h4>
 
 
 ![Get-APi-Data](gifUploads/get-api.gif)  
