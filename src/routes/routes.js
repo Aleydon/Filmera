@@ -8,26 +8,21 @@ import HeaderComponent from '../components/header';
 import NotFound from '../components/error';
 import FilmView from '../components/film';
 
-
-
-
-
-
 const Routes = () => {
-    return(
-        <>
-            <BrowserRouter>
-                <HeaderComponent />
-                <Container>
-                    <Switch>
-                        <Route exact path="/" component={HomePage} />
-                        <Route exact path="/films/:id" component={FilmView} />
-                        <Route path="*" component={NotFound} />
-                    </Switch>
-                </Container>
-            </BrowserRouter>
-        </>
-    );
-}
+  return (
+    <>
+      <BrowserRouter>
+        <HeaderComponent />
+        <Container>
+          <Switch>
+            <Route exact path="/" component={HomePage} />
+            <Route exact path="/films/:id" component={FilmView} />
+            <Route path="*" component={NotFound} />
+          </Switch>
+        </Container>
+      </BrowserRouter>
+    </>
+  );
+};
 
 export default Routes;
